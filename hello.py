@@ -1,2 +1,2 @@
 ten = input('Ban ten gi?')
-print('Xin chao ' + ten)
+print('Xin chao ' + ten.capitalize())
