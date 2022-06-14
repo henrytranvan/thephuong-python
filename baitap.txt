@@ -4,3 +4,22 @@ nhập a và b, tìm x
 
 bài 2
 Viết chương trình giải phương trình bậc 2 (ax2+ bx + c =0) nhập a,b,c tim ngiệm 
+
+bai3
+Nhập 2 cạnh hcn a và b.
+in ra màn hinh dien tich va chu vi
+
+bai 4 
+nhâp bán kính hình tron
+in ra man hinh chu vi va dien tich
+
+bai 5
+nhap vao 3 so a,b,c
+in ra
+- a + b + c.
+- a*b*c.
+- a - b*c.
+- a - b -c 
+
+
+
