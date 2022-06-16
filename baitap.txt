@@ -21,7 +21,6 @@ in ra
 - a - b*c.
 - a - b -c 
 
-
 Bài 6
 
 Hãy nhập điểm trung bình của lớp vào từ bàn phím
