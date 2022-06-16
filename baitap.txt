@@ -28,3 +28,17 @@ In ra tổng số học sinh giỏi (DTB >= 8.5)
 Tổng số học sinh khá (6.5 < DTM < 8.5)
 Tổng số HS TB DTB = [5.0 – 6.5]
 Tổng sô học sinh yếu < 5.0 
+
+
+bài 7.
+Nhập vào số nguyên n 
+Kiểm tra xemn n có phải là số nguyên tố
+
+
+Bài 8
+Nhâp vào số nguyên n.
+In ra tất cả các số nguyên tô từ 0 dến n
+
+
+
+
