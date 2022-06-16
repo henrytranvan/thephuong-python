@@ -22,4 +22,10 @@ in ra
 - a - b -c 
 
 
+Bài 6
 
+Hãy nhập điểm trung bình của lớp vào từ bàn phím
+In ra tổng số học sinh giỏi (DTB >= 8.5)
+Tổng số học sinh khá (6.5 < DTM < 8.5)
+Tổng số HS TB DTB = [5.0 – 6.5]
+Tổng sô học sinh yếu < 5.0 
