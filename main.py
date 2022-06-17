@@ -1,5 +1,5 @@
-print('Hello, Panda');
-print('Hi Panda');
+print('Hello, Having a good day!');
+print('Hi Phuong');
 name = input('Please enter your name: ');
 print('Hello ' + name);
 
