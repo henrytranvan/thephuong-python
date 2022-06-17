@@ -37,3 +37,9 @@ Kiểm tra xemn n có phải là số nguyên tố
 Bài 8
 Nhâp vào số nguyên n.
 In ra tất cả các số nguyên tô từ 0 dến n
+
+Bài 9.
+Viết hàm tính a luỹ thừa n (a~n) (a*a*a ...)
+
+Bài 10.
+Viết hàm tính a giai thừa n (a!n) (1*2*3*4 ...*n)
