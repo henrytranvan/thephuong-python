@@ -1,3 +1,4 @@
+#tra lai 1 neu la so nguyen to con 0 thi khpong phai so nguyen to
 def songuyento(n) :
     f = 1
     if (n <2):

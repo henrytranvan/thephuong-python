@@ -1,0 +1,2 @@
+def luythua(n) :
+    

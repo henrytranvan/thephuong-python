@@ -1,10 +1,8 @@
 import bai7
-e = int(input('Nhập số tự nhiên cuối của dãy số muốn kiểm tra : '))
-
-for i in range(e) :
-    d = bai7.songuyento(i)
-    if (d == 1) :
+n = int(input('Nhap so cuoi cua day so muon kiem tra'))
+for i in range(n) :
+    kq = bai7.songuyento(i)
+    if kq == 1 :
         print(str(i) + ' la so nguyen to')
     else :
-        print(str(i) + ' khong phai la so nguyen to')
-
+        print(str(i) + ' khkong phai la so nguyen to')
