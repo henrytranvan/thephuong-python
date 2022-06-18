@@ -1,9 +1,8 @@
 print('Hello, Having a good day!');
-print('Hi Phuong');
-name = input('Please enter your name: ');
-print('Hello ' + name);
+print('Hi P');
+print('Hello  ');
 
-def my_function(country = "Norway"):
+def my_function(country = "Viet Nam"):
   print("I am from " + country);
 
 my_function();
