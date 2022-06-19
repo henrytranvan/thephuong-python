@@ -2,6 +2,7 @@ def giaithua(n):
     giaithua = 1
     if (n == 0) :
         print('Giai thừa của 0 là 0')
+        return 
     else:
         for i in range(1, n + 1):
             giaithua = giaithua * i
