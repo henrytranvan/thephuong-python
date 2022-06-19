@@ -6,7 +6,6 @@ while (ketthuc != True) :
     if a == 'k' :
         break
     ds.append(float(a))
-
 solonhat = 0
 for i in ds :
     print(str(i))
