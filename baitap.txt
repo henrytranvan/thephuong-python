@@ -47,3 +47,5 @@ Bài 10.
 Viết hàm tính a giai thừa n (a!n) (1*2*3*4 ...*n)
 
 bài 11 nhập vào 1 mảng ds các số , tìm phần tử lớn nhất
+
+bài 12 nhập vào 1 mảng các số , in chúng thứ tự tăng dần
