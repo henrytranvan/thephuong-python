@@ -45,3 +45,5 @@ Viết hàm tính a luỹ thừa n (a~n) (a*a*a ...)
 
 Bài 10.
 Viết hàm tính a giai thừa n (a!n) (1*2*3*4 ...*n)
+
+bài 11 nhập vào 1 mảng ds các số , tìm phần tử lớn nhất
