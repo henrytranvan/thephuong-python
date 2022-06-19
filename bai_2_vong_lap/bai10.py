@@ -8,4 +8,4 @@ def giaithua(n):
         return giaithua
  
 n = int(input("Nhập số nguyên dương n = "))
-print("Giai thừa của", n, "là", giaithua(n))
+print("Giai thừa của", n , "là", giaithua(n))
