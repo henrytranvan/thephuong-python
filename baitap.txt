@@ -59,3 +59,7 @@ bài 15
 Giải hệ phương trình tuyến tính
   ax + by = m 
   cx + dy = n  
+
+bài 16
+Viết chương trinh nhập vào một số nguyên dương, in ra màn hình số đảo ngược của số đó
+VD Nhâp vào 12345 thì in in ra 54321
