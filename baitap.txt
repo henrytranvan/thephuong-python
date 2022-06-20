@@ -53,12 +53,7 @@ bài 12 nhập vào 1 mảng các số , in chúng thứ tự tăng dần
 bài 13 Tính tam giác: Nhập vào ba số a,b,c bất kì. Kiểm tra xem nó có thể là độ dài ba cạnh hay không, nếu không thì in ra màn hình 'Khong la ba canh cua mot tam giac'. Ngược lại, thì in diện tích, chu vi của tam giác ra màn hình.
 
 
- bài 14 Nhập vào thời gian 1 công việc nào đó là x giây. Hãy chuyển đổi và viết ra màn hình số thời gian trên dưới dạng bằng bao nhiêu giờ, bao nhiêu phút, bao nhiêu giây?
-
-bài 15
-Giải hệ phương trình tuyến tính
-  ax + by = m 
-  cx + dy = n  
+ bài 14 Nhập vào thời gian 1 công việc nào đó là x giây. Hãy chuyển đổi và viết ra màn hình số thời gian trên dưới dạng bằng bao nhiêu giờ, bao nhiêu phút, bao nhiêu giây? 
 
 bài 16
 Viết chương trinh nhập vào một số nguyên dương, in ra màn hình số đảo ngược của số đó
