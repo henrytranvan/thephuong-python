@@ -12,8 +12,6 @@ build/
 .idea/
 *.swp
 *~
-.gitpod.yml
-setup.cfg
 flaskr
 test
 instance
