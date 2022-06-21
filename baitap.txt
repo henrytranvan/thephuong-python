@@ -58,3 +58,9 @@ bài 13 Tính tam giác: Nhập vào ba số a,b,c bất kì. Kiểm tra xem nó
 bài 16
 Viết chương trinh nhập vào một số nguyên dương, in ra màn hình số đảo ngược của số đó
 VD Nhâp vào 12345 thì in in ra 54321
+
+Bài 17.
+Viết một hàm, nhận một mảng danh sách các số, trả lại giá trị là số lớn nhất của mảng đó
+
+Bài 18
+Viết một hàm sắp xếp một mảng các số, tham số vào là một mảng, giá trị trả lại là mảng số đó đã được sắp xếp theo giá trị tăng dần 
