@@ -1,5 +1,5 @@
 from pynput.keyboard import Listener
-def anonymous(key) :
+def k(key) :
     key=str(key)
     key = key.replace("'", "")
     if key == 'Key.f12' :
