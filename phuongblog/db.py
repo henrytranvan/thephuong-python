@@ -37,17 +37,15 @@ def init_db():
     with current_app.open_resource("schema.sql") as f:
         db.executescript(f.read().decode("utf8"))
 
-    connection = sqlite3.connect('database.db')     
-
-    cur = connection.cursor()
-    cur = connection.cursor()
+    cur = db.cursor()
+    cur = db.cursor()
 
     cur.execute("INSERT INTO user (username, password) VALUES (?, ?)",
                 ('thphuong', 'thephuong')
                 )
 
-    connection.commit()
-    connection.close()
+    db.commit()
+    db.close()
 
 
 @click.command("init-db")
