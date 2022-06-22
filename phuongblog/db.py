@@ -37,6 +37,15 @@ def init_db():
     with current_app.open_resource("schema.sql") as f:
         db.executescript(f.read().decode("utf8"))
 
+    cur = connection.cursor()
+
+    cur.execute("INSERT INTO user (username, password) VALUES (?, ?)",
+                ('thphuong', 'thephuong')
+                )
+
+    connection.commit()
+    connection.close()
+
 
 @click.command("init-db")
 @with_appcontext
