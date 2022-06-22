@@ -41,7 +41,11 @@ def init_db():
     cur = db.cursor()
 
     cur.execute("INSERT INTO user (username, password) VALUES (?, ?)",
-                ('thphuong', 'thephuong')
+                ('phuongit', 'pbkdf2:sha256:260000$holc5xaBcBacvtuS$415fcc3e85045a3242c1409ebebc97908c3442b811e70242abd43f448b6566a0')
+                )
+
+    cur.execute("INSERT INTO port (author_id, title, body) VALUES (?, ?, ?)",
+                (1, 'This is the first post', 'This is the first post content')
                 )
 
     db.commit()
