@@ -6,8 +6,7 @@ from flask import render_template
 from flask import request
 from flask import url_for
 from werkzeug.exceptions import abort
-from werkzeug.utils import secure_filename
-from flask import Flask
+
 import urllib.request
 import os
 
@@ -154,9 +153,3 @@ def upload_image():
 	else:
 		flash('Allowed image types are -> png, jpg, jpeg, gif')
 		return redirect(request.url)
-
-@app.route('/display/<filename>')
-def display_image(filename):
-	#print('display_image filename: ' + filename)
-	return redirect(url_for('static', filename='uploads/' + filename), code=301)
-    
