@@ -9,4 +9,4 @@ while (a != 'k') :
 for i in mang :
     print(i)
     Q = math.sqrt([(2 * 50 * i)/30]) 
-    print(str(Q))
+    print(str(q))
