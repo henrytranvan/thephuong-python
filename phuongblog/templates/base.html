@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <title>{% block title %}{% endblock %} - phuong blog</title>
+  <title>{% block title %}{% endblock %} - Phuong Blog</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="{{ url_for('index')}}">Phuong's Blog</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -19,7 +19,7 @@
           </li>
           {% if g.user %}
           <li class="nav-item"><span>{{ g.user['username'] }}</span>
-          <li class="nav-item"><a class="nav-link" href="{{ url_for('auth.logout') }}">Thoát ra</a>
+          <li class="nav-item"><a class="nav-link" href="{{ url_for('auth.logout') }}">Đăng xuất</a>
           {% else %}
             <li class="nav-item"><a class="nav-link" href="{{ url_for('auth.register') }}">Đăng ký</a>
             <li class="nav-item"><a class="nav-link" href="{{ url_for('auth.login') }}">Đăng nhập</a>
