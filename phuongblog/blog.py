@@ -6,6 +6,10 @@ from flask import render_template
 from flask import request
 from flask import url_for
 from werkzeug.exceptions import abort
+from werkzeug.utils import secure_filename
+from flask import Flask
+import urllib.request
+import os
 
 from phuongblog.auth import login_required
 from phuongblog.db import get_db
