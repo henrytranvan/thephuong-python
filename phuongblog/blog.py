@@ -7,9 +7,6 @@ from flask import request
 from flask import url_for
 from werkzeug.exceptions import abort
 
-import urllib.request
-import os
-
 from phuongblog.auth import login_required
 from phuongblog.db import get_db
 
@@ -52,7 +49,7 @@ def get_post(id, check_author=True):
     )
 
     if post is None:
-        abort(404, f"ID bài viết {id} doesn't exist.")
+        abort(404, f"Post id {id} doesn't exist.")
 
     if check_author and post["author_id"] != g.user["id"]:
         abort(403)
@@ -98,7 +95,7 @@ def update(id):
         error = None
 
         if not title:
-            error = "Cần có tiêu đề."
+            error = "Title is required."
 
         if error is not None:
             flash(error)
@@ -126,30 +123,3 @@ def delete(id):
     db.execute("DELETE FROM post WHERE id = ?", (id,))
     db.commit()
     return redirect(url_for("blog.index"))
-ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
-
-def allowed_file(filename):
-	return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
-	
-@app.route('/')
-def upload_form():
-	return render_template('upload.html')
-
-@app.route('/', methods=['POST'])
-def upload_image():
-	if 'file' not in request.files:
-		flash('No file part')
-		return redirect(request.url)
-	file = request.files['file']
-	if file.filename == '':
-		flash('No image selected for uploading')
-		return redirect(request.url)
-	if file and allowed_file(file.filename):
-		filename = secure_filename(file.filename)
-		file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-		#print('upload_image filename: ' + filename)
-		flash('Image successfully uploaded and displayed below')
-		return render_template('upload.html', filename=filename)
-	else:
-		flash('Allowed image types are -> png, jpg, jpeg, gif')
-		return redirect(request.url)
