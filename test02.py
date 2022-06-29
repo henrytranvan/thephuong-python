@@ -1,4 +1,7 @@
 from sender import Mail, Message
+import smtplib
+
+
 mail = Mail(
 "smtp.gmail.com",
 port = 465,
