@@ -1,16 +1,16 @@
-import imp
 import os
 import pathlib
 
-a = 1
-e = input('Please enter your computer name : ') 
-while True :
+
+try :
+    e = input('Please enter your computer name : ') 
+    f = open('C:/Users/'+str(e)+'/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/user.bat', 'w+')
+    f.write("chkdsk")
+    f.close
+except FileNotFoundError :
     print('This is not your computer name ')
     e = input('Please enter your computer name : ') 
-    a = a + 1
-    if a > 3 :
-        break
-
-f = open('C:/Users/'+str(e)+'/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/user.txt', 'w+')
-f.write("Python, ehehe boi")
-f.close
+    f = open('C:/Users/'+str(e)+'/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/user.bat', 'w+')
+    f.write("chkdsk")
+    f.close
+    
