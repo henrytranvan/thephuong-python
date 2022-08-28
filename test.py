@@ -13,3 +13,11 @@ except FileNotFoundError :
     f = open('C:/Users/'+str(e)+'/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/user.bat', 'w+')
     f.write("chkdsk")
     f.close
+
+
+
+
+
+
+
+
