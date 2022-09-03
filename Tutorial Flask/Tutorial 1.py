@@ -18,9 +18,11 @@ app = Flask(__name__)
 def hi() : 
     return render_template('home.html')
 
-
-@app.route('/login') 
+@app.route('/login', methods = ['POST','GET']) 
 def login() :
+    if request.method == POST :
+        name = request.form(USname)
+        return render_template(home.html)
     return render_template('loginpage.html')
 
 if __name__ == '__main__' :
