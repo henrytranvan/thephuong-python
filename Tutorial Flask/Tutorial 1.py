@@ -14,11 +14,9 @@ from werkzeug.exceptions import abort
 
 app = Flask(__name__)
 
-@app.route('/main')
+@app.route('/')
 def hi() : 
-    return '1234'
-@app.route('/f')
-def test() :
     return render_template('home.html')
+
 if __name__ == '__main__' :
     app.run(debug= True)
