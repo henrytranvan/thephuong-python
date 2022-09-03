@@ -20,10 +20,16 @@ def hi() :
 
 @app.route('/login', methods = ['POST','GET']) 
 def login() :
-    if request.method == POST :
+    if request.method == "POST" :
         name = request.form(USname)
+        if name :
+            return redirect(url_for(hellouser(name)))
         return render_template(home.html)
     return render_template('loginpage.html')
+
+@app.route('/hi') 
+def hellouser(name):
+    return '<a>Hello {name}</a>'
 
 if __name__ == '__main__' :
     app.run(debug= True)
