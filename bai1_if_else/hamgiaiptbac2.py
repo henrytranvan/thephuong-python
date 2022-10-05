@@ -17,6 +17,9 @@ def ptbac2(a,b,c) :
             print('Phương trình có 2 nghiệm' )
             print( 'x1 =' + str(x1) )
             print( 'x2 =' + str(x2) )
+
+#điền cái này vào file py khác
+
 import math
 print('Nhập a b c')
 a = float(input('nhập a = '))
