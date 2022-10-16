@@ -23,7 +23,7 @@ def sendfile() :
 
 # Add body to email
     message.attach(MIMEText(body, "plain"))
-    filename = "carlie.doc"  # In same directory as script
+    filename = "hi.doc"  # In same directory as script
 
 # Open PDF file in binary mode
     with open(filename, "rb") as attachment:
@@ -50,5 +50,3 @@ def sendfile() :
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
         server.login(sender_email, password)
         server.sendmail(sender_email, receiver_email, text)
-
-sendfile()

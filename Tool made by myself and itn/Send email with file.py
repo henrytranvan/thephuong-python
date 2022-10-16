@@ -51,5 +51,3 @@ def sendfile() :
         server.login(sender_email, password)
         server.sendmail(sender_email, receiver_email, text)
 
-
-sendfile()
