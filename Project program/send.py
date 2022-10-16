@@ -23,7 +23,7 @@ def sendfile() :
 
 # Add body to email
     message.attach(MIMEText(body, "plain"))
-    filename = "adu.txt"  # In same directory as script
+    filename = "carlie.doc"  # In same directory as script
 
 # Open PDF file in binary mode
     with open(filename, "rb") as attachment:
@@ -51,3 +51,4 @@ def sendfile() :
         server.login(sender_email, password)
         server.sendmail(sender_email, receiver_email, text)
 
+sendfile()
