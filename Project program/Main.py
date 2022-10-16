@@ -14,7 +14,7 @@ def toico() :
             if step3 == "yes" :
                 print('Ồ hố, thế nói ta nghe coi nào...biết đâu ta lại trả lời ngươi')
                 text = input('')
-                with open('hi.txt', mode= 'a+') as a :
+                with open('hi.doc', mode= 'a+') as a :
                     a.write(text)
     elif step1 == "2" :
         print("Mệc hả, vậy thôi chăm sóc sức khoẻ đi đừng dùng đồ điện tử nữa nha <3 ")
