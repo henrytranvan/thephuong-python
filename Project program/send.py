@@ -1,4 +1,3 @@
-import shutil
 import email, smtplib, ssl
 
 from email import encoders
