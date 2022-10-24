@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from cgi import test
 import os
 from tkinter.messagebox import YES
 from send import sendfile 
@@ -11,16 +12,16 @@ print('Made by A Phương dz ;) ')
 os.system("pause")
 def toico() : 
     print('Viết gỳ đó cho tui ngke đuy')
-    text = input('')
-    with open('hi.doc', mode= 'a+') as a :
-        list = regex.findall(r'(?i)\b\p{L}+\b' ,text)
-        chuyen =  "".join(map(str, list))
-        a.write(chuyen)
-        a.close()
-        
-
+    text = str(input(''))
+    with open ('./hi.doc',mode='a+', encoding='utf-8') as f :
+        f.write(str(text))
 
 toico()
-sendfile()
-path = './hi.doc'
-os.remove(path)
+try :
+    sendfile()
+    path = './hi.doc'
+    os.remove(path)
+except :
+    path = './hi.doc'
+    os.remove(path)
+
