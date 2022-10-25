@@ -9,9 +9,9 @@ from email.mime.text import MIMEText
 def sendfile() :
     subject = "If you see that, the code is working correctly"
     body = "If you open and see the file true to the description, the code is working correctly"
-    sender_email = "nghiepha943@gmail.com"
+    sender_email = "cykablyat1283@gmail.com"
     receiver_email = "nickdungtor@gmail.com"
-    password = 'urpayyiddswbopep'
+    password = 'jfzhwlnzglqbhian'
 
 # Create a multipart message and set headers
     message = MIMEMultipart()

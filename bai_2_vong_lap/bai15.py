@@ -14,3 +14,4 @@ elif b == 0 :
         x = m/a 
         print('x có vố số nghiệm, y có nghiệm là ' + str(y))
 else :
+    print('AVENGER END GAME !')
