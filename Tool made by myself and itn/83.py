@@ -1,4 +1,4 @@
-#encoding = "utf-8"
+
 import os
 
 print('Hôm nay Ngày Quốc tế Phụ nữ đúng không nhỉ ?')
