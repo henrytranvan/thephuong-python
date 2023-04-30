@@ -1,0 +1,45 @@
+Tên học sinh	       Ngày sinh
+Lê Xuân Đức An	5/18/2008
+Bùi Ngọc Trâm Anh	5/24/2008
+Bùi Thị Vy Anh	11/20/2008
+Lê Đức Anh	12/20/2008
+Nguyễn Nam Anh	4/8/2008
+Nguyễn Vũ Diệp Anh	6/9/2008
+Trần Ngọc Châm	12/15/2008
+Đoàn Trần Bảo Châu	9/8/2008
+Nguyễn Thị Quỳnh Chi	6/10/2008
+Đặng Trần Đức Dũng	9/19/2008
+Vũ Quang Dũng	11/25/2008
+Nguyễn Liên Hải	10/14/2008
+Nguyễn Nữ Việt Hạnh	4/7/2008
+Trương Quang Hiếu	6/19/2008
+Nguyễn Ngọc Phi Hùng	6/22/2008
+Nguyễn Thành Hưng	9/14/2008
+Nguyễn Vũ Khoa	9/16/2008
+Hoàng Thị Ngọc Lan	9/11/2008
+Nguyễn Phương Linh	8/9/2008
+Nguyễn Trà My	10/14/2008
+Lại Phú Bảo Nam	12/19/2008
+Nguyễn Ngọc Nam	3/22/2008
+Bùi Yến Nhi	10/14/2008
+Nguyễn Thị Kim Oanh	1/1/2008
+Cao Bá Phát	4/2/2008
+Nguyễn Hải Phong	10/6/2008
+Nguyễn Thế Phong	7/11/2008
+Hà Thế Phương	7/22/2008
+Hồ Việt Phương	3/10/2008
+Chu Anh Quốc	10/20/2008
+Lê Tiến Sơn	10/5/2008
+Ngô Đức Sơn	12/29/2008
+Trần Minh Sơn	8/5/2008
+Nguyễn Phương Thảo	12/3/2007
+Nguyễn Thanh Thảo	10/17/2008
+Trịnh Nguyên Thảo	5/6/2008
+Gia Quang Thắng	7/24/2008
+Trần Ngân Thu	4/9/2008
+Đỗ Bảo Trâm	10/5/2008
+Vũ Đức Trung	7/22/2008
+Nguyễn Như Tuấn	3/26/2008
+Phạm Hồng Vân	9/16/2008
+Lưu Đình Minh Vũ	9/14/2008
+
