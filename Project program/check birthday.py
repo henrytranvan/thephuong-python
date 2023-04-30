@@ -1,18 +1,18 @@
 import datetime 
+import os
 
 now = datetime.datetime.now()
 checkdaymonth = now.strftime("%m/%d")
-
-print(checkdaymonth)
+d = checkdaymonth.split()
 f = open("a.txt",'r',encoding = 'utf-8')
 while True :
     a = f.readline()
-    print(a)
     if a == "" :
         break
-    b = a[-1:4]
-    while True :    
-        print(b)
-        if True :
-            break  
+    b = a.split()
+    c = b[-1:]
+    if c == d :
+        print("Hôm nay là ngày sinh nhật của : " + str(a))
+        os.system("pause")
+    
 
