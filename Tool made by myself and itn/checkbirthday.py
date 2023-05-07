@@ -91,10 +91,8 @@ for i in kct :
     b = i.split("\t")
     c = b[-1:]
     if c == d :
-        with open("./dbd.vbs", mode= "a+") as kkct :
-            kkct.write("Hôm nay là sinh nhật của " + str(b))
-            kkct.read()
-            os.remove("./dbd.vbs")
+        print('Hôm nay là sinh nhật của : ' + str(i))
+            
            
             
             
