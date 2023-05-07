@@ -8,7 +8,7 @@ def anoymous(key) :
     if key == "Key.esc" : 
         raise SystemExit(0) 
     elif key == "Key.alt_l" :
-        key == "\n"  
+        key == ""  
     elif key == "Key.tab" :
         key == "\n"
     
