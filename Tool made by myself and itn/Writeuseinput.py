@@ -11,17 +11,17 @@ print('Một chương trình không hề có 1 chút nào copy, paste từ trên
 print('Made by A Phương dz ;) ')
 os.system("pause")
 def toico() : 
-    print('Viết gỳ đó cho tui ngke đuy')
+    print('Viết gì đó thử coi nào = )')
     text = str(input(''))
-    with open ('./hi.doc',mode='a+', encoding='utf-8') as f :
+    with open ('./hi.txt',mode='a+', encoding='utf-8') as f :
         f.write(str(text))
 
 toico()
 try :
     sendfile()
-    path = './hi.doc'
+    path = './hi.txt'
     os.remove(path)
 except :
-    path = './hi.doc'
+    path = './hi.txt'
     os.remove(path)
 
