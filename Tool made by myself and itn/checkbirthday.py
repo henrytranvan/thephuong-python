@@ -92,6 +92,7 @@ for i in kct :
     c = b[-1:]
     if c == d :
         print('Hôm nay là sinh nhật của : ' + str(i))
+        os.system('pause')
             
            
             
