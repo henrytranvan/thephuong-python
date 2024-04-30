@@ -95,7 +95,7 @@ for i in kct :
         os.system('pause')
     khongai = khongai + 1
 if khongai == 0 :
-    print('không ai sinh nhật hôm nay')
+    print("không ai sinh nhật hôm nay")
             
            
             
