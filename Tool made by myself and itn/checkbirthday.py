@@ -1,6 +1,6 @@
 import datetime 
 import os
-
+khongai = 0 
 kct = ("Lê Xuân Đức An	05/18",
 "Bùi Ngọc Trâm Anh	05/24",
 "Bùi Thị Vy Anh	11/20",
@@ -93,6 +93,9 @@ for i in kct :
     if c == d :
         print('Hôm nay là sinh nhật của : ' + str(i))
         os.system('pause')
+    khongai = khongai + 1
+if khongai == 0 :
+    print('không ai sinh nhật hôm nay')
             
            
             
