@@ -82,7 +82,7 @@ kct = ("Lê Xuân Đức An	05/18",
 "Phạm Hồng Vân	09/16",
 
 "Lưu Đình Minh Vũ	09/14",
-"AAAAA 04/30"
+"AAAAA  04/30"
 )
 now = datetime.datetime.now()
 checkdaymonth = now.strftime("%m/%d")
