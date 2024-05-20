@@ -82,7 +82,8 @@ kct = ("Lê Xuân Đức An	05/18",
 "Phạm Hồng Vân	09/16",
 
 "Lưu Đình Minh Vũ	09/14",
-"AAAAA  04/30"
+
+
 )
 now = datetime.datetime.now()
 checkdaymonth = now.strftime("%m/%d")
@@ -93,7 +94,7 @@ for i in kct :
     if c == d :
         print('Hôm nay là sinh nhật của : ' + str(i))
         os.system('pause')
-    khongai = khongai + 1
+        khongai = khongai + 1
 if khongai == 0 :
     print("không ai sinh nhật hôm nay")
             
