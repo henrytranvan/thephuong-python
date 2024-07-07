@@ -7,5 +7,11 @@ def data_entry(WORD,Definition) :
 def get_data() :
     cursor.execute('SELECT * FROM VC')
     data= cursor.fetchall()
-    for i in data :
-        print(i)
+    count = int(input("Bạn đã học được bao nhiêu từ vựng tiếng anh ? "))
+    while count == count+11  :
+        A = data[count]
+        print(A)
+        count=count+1
+get_data()
+cursor.close()
+connect.close()
