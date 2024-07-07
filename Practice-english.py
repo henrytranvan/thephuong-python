@@ -8,4 +8,4 @@ def get_data() :
     cursor.execute('SELECT * FROM VC')
     data= cursor.fetchall()
     for i in data :
-        print(d)
+        print(i)
